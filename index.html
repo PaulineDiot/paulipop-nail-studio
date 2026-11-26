@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pauli'Pop Nail Studio | Prothésiste Ongulaire à Couddes</title>
+    <meta name="description"
+        content="Prothésiste ongulaire diplômée à Couddes. Pose en gel, vernis semi-permanent, nail art et beauté des mains. Prise de rendez-vous par téléphone ou SMS.">
+    <!-- OpenGraph pour le partage sur les réseaux sociaux (Instagram, Facebook, SMS) -->
+    <meta property="og:title" content="Pauli'Pop Nail Studio | Prothésiste Ongulaire à Couddes">
+    <meta property="og:description"
+        content="Pose en gel, vernis semi-permanent, nail art et beauté des mains à Couddes (41700).">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/photos/pose-1.webp">
+
+    <!-- Données structurées Google (SEO Local) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "NailSalon",
+      "name": "Pauli'Pop Nail Studio",
+      "image": "images/logo.png",
+      "telephone": "+33788819565",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "25 route de Blois",
+        "addressLocality": "Couddes",
+        "postalCode": "41700",
+        "addressCountry": "FR"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "08:00",
+          "closes": "16:30"
+        }
+      ],
+      "priceRange": "€"
+    }
+    </script>
+
+    <!-- Appel du CSS compilé et minifié -->
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+    <!-- En-tête et navigation -->
+    <header class="header">
+        <div class="container header__inner">
+            <a href="./index.html" class="logo">
+                <img src="images/logo.png" alt="Pauli'Pop Nail Studio" width="70" height="70" />
+                Pauli'Pop Nail Studio
+            </a>
+            <nav class="nav">
+                <a href="./index.html#galerie">Galerie</a>
+                <a href="./index.html#prestations">Prestations et Tarifs</a>
+                <a href="./index.html#infos">Infos et Contact</a>
+                <a href="./faq.html">FAQ</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Section d'accueil (Hero) -->
+        <section class="hero">
+            <div class="container">
+                <h1>Prothésiste ongulaire à Couddes</h1>
+                <p class="hero__subtitle">Pétillante jusqu'au bout des ongles.</p>
+                <p class="hero__subtitle__note">Ouverture prévue le 8 Décembre 2026</p>
+            </div>
+        </section>
+
+        <!-- Section Galerie -->
+        <section id="galerie" class="section">
+            <div class="container">
+                <h2>Mes réalisations</h2>
+
+                <div class="carrousel-wrapper">
+                    <button class="carrousel-btn prev" aria-label="Photo précédente">&#10094;</button>
+
+                    <div class="galerie-carrousel" id="galerieCarrousel">
+                        <!-- Les 31 photos vont s'ajouter ici automatiquement -->
+                    </div>
+
+                    <button class="carrousel-btn next" aria-label="Photo suivante">&#10095;</button>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Section Prestations & Tarifs -->
+        <section id="prestations" class="section section--alt">
+            <div class="container">
+                <h2>Prestations et Tarifs
+                    <p class="note_tarif">Avant chaque prestation, merci de prendre en compte les <a
+                            href="./prevention.html">préventions</a> et les <a href="./entretien.html">informations
+                            d'entretien</a> </p>
+                </h2>
+                <div class="tarifs-grid">
+
+                    <div class="tarif-card">
+                        <h3>Vernis Semi-Permanent</h3>
+                        <ul class="tarif-list">
+                            <li><span>Pose couleur main<span class="duration"> - 1h</span></span><strong>30
+                                    €</strong></li>
+                            <li><span>Pose couleur pied<span class="duration"> - 1h</span></span><strong>30
+                                    €</strong></li>
+                            <li><span>Pose couleur + renfort main<span class="duration"> - 1h30</span></span><strong>38
+                                    €</strong></li>
+                            <li><span>Pose couleur + renfort pied<span class="duration"> - 1h30</span></span><strong>38
+                                    €</strong></li>
+                            <li><span>Dépose + soin 30 min<span class="duration"> - 30 min</span></span><strong>15
+                                    €</strong>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tarif-card">
+                        <h3>Gel et Rallongement</h3>
+                        <ul class="tarif-list">
+                            <li><span>Gainage sur ongles naturels main<span class="duration"> -
+                                        1h30</span></span><strong>43 €</strong></li>
+                            <li><span>Gainage sur ongles naturels pied<span class="duration"> -
+                                        1h30</span></span><strong>43 €</strong></li>
+                            <li><span>Pose complète gel<span class="duration"> - 2h</span></span><strong>55 €</strong>
+                            </li>
+                            <li><span>Remplissage gel (3/4 semaines)<span class="duration"> - 1h30</span>
+                                </span><strong>45
+                                    €</strong></li>
+                            <li><span>Remplissage gel (+ de 4 semaines)<span class="duration"> -
+                                        1h45</span></span><strong>50 €</strong></li>
+                            <li><span>Réparation ongle cassé<span class="duration"> - 30 min</span></span><strong>5
+                                    €</strong></li>
+                        </ul>
+                    </div>
+
+                    <div class="tarif-card">
+                        <h3>Nail Art et Options</h3>
+                        <ul class="tarif-list">
+                            <li><span>Babyboomer / french / Nail art simple</span><strong>5 € par pose</strong></li>
+                            <li><span>Incrustations décorations (paillettes, fleurs, strass etc.)</span><strong>10€ par
+                                    pose</strong></li>
+                            <li><span>Nail art complexe</span><strong>sur devis</strong></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Infos pratiques -->
+        <section id="infos" class="section">
+            <div class="container infos-grid">
+                <div class="info-box">
+                    <h2>Horaires et Rendez-vous</h2>
+                    <p><strong>Du mardi au vendredi :</strong> 8h - 16h30</p>
+                    <p><strong>Samedi :</strong> Possible selon planning (me contacter)</p>
+                    <p class="info-box__alert">La prise de RDV se fait uniquement via SMS, appel ou MP sur les réseaux
+                        sociaux</p>
+
+                    <p class="info-box__alert">Pendant les prestations, je ne peux pas décrocher. Laissez-moi un SMS
+                        avec vos disponibilités et la prestation souhaitée, je vous réponds dès que possible !</p>
+                </div>
+
+                <div class="info-box">
+                    <h2>Accès
+                    </h2>
+                    <p><strong>Adresse :</strong> 25 route de Blois 41700 Couddes - à seulement 5 minutes de Contres et
+                        15 minutes de Saint-Aignan.</p>
+                    <p><strong>Stationnement :</strong> Places disponibles devant l'institut</p>
+
+                    <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2702.5036001926824!2d1.401968976688991!3d47.363088704761374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47fb53fe15aad1d7%3A0x353d129501a65e5e!2s25%20Rte%20de%20Blois%2C%2041700%20Couddes!5e0!3m2!1sfr!2sfr!4v1795610580144!5m2!1sfr!2sfr"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pied de page -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Pauli'Pop Nail Studio - SIRET : A venir</p>
+            <p><a href="./cgv.html">Mentions légales</a></p>
+        </div>
+    </footer>
+
+    <!-- Barre fixe mobile pour appeler ou envoyer un SMS en 1 clic -->
+    <div class="mobile-bar">
+        <a href="tel:+33788819565" class="mobile-bar__btn mobile-bar__btn--call">Appeler</a>
+        <a href="sms:+33788819565" class="mobile-bar__btn mobile-bar__btn--sms">SMS</a>
+    </div>
+    <script>
+        const carrousel = document.getElementById('galerieCarrousel');
+        const totalPhotos = 31;
+
+        for (let i = totalPhotos; i >= 1; i--) {
+            const figure = document.createElement('figure');
+            figure.className = 'galerie-item';
+            figure.innerHTML = `<img src="images/photos/pose-${i}.webp" alt="Réalisation onglerie Pauli'pop Nail Studio ${i}" width="800" height="800" loading="lazy">`;
+            carrousel.appendChild(figure);
+        }
+
+        // Gestion des flèches
+        const prevBtn = document.querySelector('.carrousel-btn.prev');
+        const nextBtn = document.querySelector('.carrousel-btn.next');
+
+        nextBtn.addEventListener('click', () => {
+            const itemWidth = carrousel.querySelector('.galerie-item').offsetWidth;
+            carrousel.scrollBy({ left: itemWidth + 24, behavior: 'smooth' });
+        });
+
+        prevBtn.addEventListener('click', () => {
+            const itemWidth = carrousel.querySelector('.galerie-item').offsetWidth;
+            carrousel.scrollBy({ left: -(itemWidth + 24), behavior: 'smooth' });
+        });
+    </script>
+
+</body>
+
+</html>
